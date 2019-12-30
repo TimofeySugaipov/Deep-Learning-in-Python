@@ -37,7 +37,7 @@ def cost(T, Y):
 
 def cost2(T, Y):
     N = len(T)
-    return -np.log(Y[np.arrange(N), T]).mean()
+    return -np.log(Y[np.arange(N), T]).mean()
 
 
 def error_rate(targets, predictions):
